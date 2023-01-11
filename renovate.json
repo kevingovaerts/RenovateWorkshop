@@ -3,6 +3,8 @@
   "extends": ["config:base"],
   "assignees": ["kevingovaerts"],
   "prConcurrentLimit": 3,
+  "timezone": "GMT",
+  "schedule": ["after 10pm, before 2:00am"],
   "packageRules": [
     {
       "matchUpdateTypes": ["minor", "patch", "digest"],
@@ -12,10 +14,6 @@
     {
       "matchUpdateTypes": ["major"],
       "automerge": false
-    },
-    { 
-      "timezone": "America/Los_Angeles",
-      "schedule": ["after 10pm, before 2:00am"]
     }
   ]
 }
