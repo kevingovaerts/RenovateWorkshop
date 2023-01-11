@@ -1,8 +1,6 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-  "extends": [
-    "config:base"
-  ],
+  "extends": ["config:base"],
   "assignees": ["kevingovaerts"],
   "prConcurrentLimit": 3,
   "packageRules": [
@@ -14,7 +12,10 @@
     {
       "matchUpdateTypes": ["major"],
       "automerge": false
+    },
+    { 
+      "timezone": "America/Los_Angeles",
+      "schedule": ["after 10pm, before 2:00am"]
     }
   ]
- 
 }
