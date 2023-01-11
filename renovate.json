@@ -4,7 +4,7 @@
   "assignees": ["kevingovaerts"],
   "prConcurrentLimit": 3,
   "timezone": "GMT",
-  "schedule": ["after 10pm, before 2:00am"],
+  "schedule": "after 11pm and before 2am every weekday, every weekend",
   "packageRules": [
     {
       "matchUpdateTypes": ["minor", "patch", "digest"],
